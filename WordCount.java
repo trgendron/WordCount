@@ -21,6 +21,7 @@ public class WordCount
                        OutputCollector<Text, IntWritable> output, Reporter reporter
                      ) throws IOException 
 	     {
+	     	
 	     String line = value.toString().toLowerCase(); 
 	     String[] tokens = line.split("[\\s* \\p{Punct}]+");
 
