@@ -21,10 +21,13 @@ public class WordCount
                        OutputCollector<Text, IntWritable> output, Reporter reporter
                      ) throws IOException 
 	     {
+<<<<<<< HEAD
 
 	     // convert to lower case 
 	     // delimet on whitespace and all punctuation
 
+=======
+>>>>>>> c3567529330af29e4c959f856d4a3f5eaf0ebe64
 	     String line = value.toString().toLowerCase(); 
 	     String[] tokens = line.split("[\\s* \\p{Punct}]+");
 
